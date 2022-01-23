@@ -1,0 +1,505 @@
+
+
+.container{
+    width: 90vw;
+    margin: auto;
+}
+.header{
+    background: #000;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+.navbar .large-menu .logo{
+    width: 130px;
+    /* margin-right: 0px; */
+    /* margin-left: -40px; */
+}
+
+.navbar .large-menu ul li{
+    list-style: none;
+    display: inline-block;
+    /* padding-left: 10px; */
+    padding: 0 5px;
+    font-size: .91rem;
+}
+
+.current{
+    border-bottom: #ffc500 solid 3px;
+    padding: 7px;
+    font-size: 1rem;
+}
+
+
+.showcase{
+    background: #ffc500;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.content{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    justify-content: center;
+    align-items: center;
+    grid-gap: 3rem;
+    /* padding-top: 30px; */
+}
+
+.content .content-1 h1{
+    margin-bottom: 30px;
+    font-size: 2.5rem;
+}
+.content .content-1 p{
+    margin-bottom: 40px;
+    font-size: .8rem;
+    line-height: 1.5;
+}
+
+.content .content-1 a{
+    background: #000;
+    padding: 15px 60px;
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+    font-style: italic;
+    font-weight: lighter;
+    border-radius: 7px;
+    
+}
+.content .content-2 img{
+    width: 65%;
+    transform:  translateX(1920px) rotate(35deg);
+    animation: showcase-2 .8s forwards ease
+    
+}
+
+.content .content-2{
+    justify-self: start;
+}
+
+
+
+.presentation{
+    background: #DBDBDB;
+    padding: 35px 0;
+    padding-bottom: 60px;
+}
+
+.presentation .heading h2{
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+.presentation .content-1 img{
+    width: 250px;
+    box-shadow: 10px 10px 1px#444;
+}
+
+
+.grid-content .content-2 h3{
+    margin-bottom: 20px;
+    font-size: 20px;
+
+}
+
+.grid-content .content-2 p{
+    margin-bottom: 40px;
+    line-height: 1.5;
+    font-size: .8rem;
+}
+
+.grid-content .content-2 a{
+    background: #000;
+    color: white;
+    text-decoration: none;
+    padding: 15px 50px;
+    border-radius: 5px;
+    font-style: italic;
+    font-size: .8rem;
+}
+
+/* le concept */
+
+.grid-content-2 .content-2 h3{
+    margin-bottom: 20px;
+    font-size: 20px;
+
+}
+
+.grid-content-2 .content-2 p{
+    margin-bottom: 40px;
+    line-height: 1.5;
+    font-size: .8rem;
+}
+.grid-content-2 .content-2 a{
+    background: #000;
+    color: white;
+    text-decoration: none;
+    padding: 15px 50px;
+    border-radius: 5px;
+    font-style: italic;
+    font-size: .8rem;
+}
+
+.concept{
+    background: white;
+    padding: 40px 0;
+    padding-bottom: 65px;
+}
+.concept .heading h2{
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+.concept img{
+    width: 250px;
+    box-shadow: 10px 10px 1px#444;
+}
+
+
+/* tarifs */
+
+.tarif{
+    background: #DBDBDB;
+    padding: 30px 0;
+    padding-bottom: 55px;
+    
+}
+.tarif .heading h3{
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+.grid-container-3{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap:2rem;
+}
+
+.grid-container-3 .card{
+    background: #000;
+    color: white;
+    text-align: center;
+    padding: 50px 15px;
+    padding-bottom: 45px;
+}
+
+.grid-container-3 .card h3{
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+.grid-container-3 .card ul li{
+    list-style: none;
+    padding-bottom: 10px;
+    font-size: .8rem;
+}
+.grid-container-3 .card ul li:last-child{
+    
+    padding-bottom: 30px;
+}
+
+.grid-container-3 .card a{
+    background: #ffc500;
+    padding: 10px 50px;
+    border-radius: 5px;
+    margin-top: 10px;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-style: italic;
+    font-size: .8rem;
+}
+
+.grid-container-3 .card-2  {
+    background: #ffc500;
+    color: #000;
+
+}
+.grid-container-3 .card-2 a{
+    background: #000;
+    color: white;
+    padding: 12px 57px;
+}
+
+/* modele de coupe */
+
+
+.slide-img{
+    width: 65%;
+}
+
+.gallerie h3{
+     font-size: 2.6rem;
+     line-height: 2.7rem;
+}
+
+/* give a call get a call */
+
+.grid-container-4 .img-1 {
+    background: #ffc500;
+    padding: 10px 55px;     
+}
+.grid-container-4 .img-1 img{
+    width: 550px;
+}
+
+.grid-container-4 .img-2 img{
+    max-width: 348px;
+    
+}
+
+.grid-container-4 .form form label{
+    padding: 10px 0;
+    font-size: .9rem;
+    margin-top: 10px;
+}
+
+
+.form form .button button{
+    background: #ffc500;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 30px;
+    font-size: .8rem;
+    font-style: italic;
+    cursor: pointer;
+}
+
+
+
+.footer{
+    background: #000;
+    color: white;
+}
+
+.footer .grid-container-5{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 2rem;
+    padding: 100px 0;
+}
+
+
+.footer .grid-container-5 h3{
+    font-size: 1rem;
+    padding-bottom: 15px;
+    border-bottom: #ffc500 solid 1px;
+}
+
+.footer .grid-container-5 .ntji-cut .p{
+    margin-top: 15px;
+    font-size: .8rem;
+
+}
+
+.footer .grid-container-5 .ntji-cut h3{
+    font-size: 1rem;
+}
+
+.footer .grid-container-5 .ntji-cut .p p a{
+    text-decoration: none;
+    color: white;
+    transition: .5s;
+}
+
+.footer .grid-container-5 .ntji-cut .p p a:hover{
+    color: #ffc500;
+}
+
+.footer .grid-container-5 p{
+    padding: 8px 0 ;
+}
+
+.footer .grid-container-5 .contact p {
+    display: flex;
+    flex-direction: row;
+    padding-top: 25px;
+    font-size: .8rem;
+    
+}
+
+.footer .grid-container-5 .contact .ctct-content p {
+    margin-bottom: -15px;
+}
+.footer .grid-container-5 .contact p span{
+    margin-top: -5px;
+}
+
+.footer .grid-container-5 .contact p a{
+    color: white;
+    text-decoration: none;
+    transition: .5s;
+}
+
+.footer .grid-container-5 .contact p a:hover{
+    color: #ffc500;
+}
+
+.footer .grid-container-5 .suivez-nous p {
+    display: inline;   
+    font-size: .8rem;
+}
+.footer .grid-container-5 .suivez-nous p i{
+    margin-top: 20px;
+    transition: .5s;
+}
+
+.footer .grid-container-5 .suivez-nous p i:hover{
+    color: #ffc500;
+}
+
+.footer .grid-container-5 i{
+    padding-right: 15px;
+}
+
+.footer .grid-container-5 .logo{
+    justify-self: right;
+}
+
+.footer .grid-container-5 .logo img{
+    width: 100px;
+    justify-self: end;
+    
+}
+
+
+.footer .grid-container-5 small {
+    opacity: .7;
+
+}
+.footer .grid-container-5 small a{ 
+    text-decoration: none;
+    color: white;
+    transition: .5s;
+}
+
+.card-1-grid h3{
+    grid-column: 1 / span 2;
+    padding-bottom: 20px;
+    font-size: 1rem;
+   
+}
+
+.card-1-grid p{
+    padding-bottom: 10px;
+    font-size: .8rem;   
+}
+
+.grid-content-1{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    justify-content: center;
+    align-items: center;
+    grid-gap: 2rem;
+
+}
+
+.contact-2 .contact-img img{
+    width: 360px;
+    
+}
+
+.form-2 form{
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    width: 100%;
+    
+
+
+}
+
+.form-2 label, input, textarea, .btn{
+    margin-top: 15px;
+    
+}
+
+.form-2 label{
+    font-size: 1rem;
+}
+
+
+.form-2 input{
+    padding: 15px 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 12px;
+    background: rgb(46, 44, 44);
+    color: white;
+    
+}
+
+.form-2 textarea{
+    margin-top: 15px;
+    padding: 20px 15px;
+    height: 175px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    background: rgb(46, 44, 44);
+    border: none;
+    color: white;
+}
+
+.form-2 .btn{
+    padding: 12px;
+    width: 40%;
+    font-size: 18px;
+    font-style: italic;
+    border-radius: 5px;
+    border: none;
+    background: #ffc500;
+    color: black;
+    margin: 45px 0;
+    
+}
+
+
+
+.form-rdv .card-rv{
+    
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    margin-bottom: 100px;
+    top: 0;
+    left: 0;
+    padding-bottom: 2rem;
+    
+
+}
+
+.form-rdv .card-rv .form-3{
+    
+    padding: 10px 25px;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 1fr 2fr;
+    
+       
+}
+
+
+
+
+
+.form-rdv .card-rv .form-3 .envoyer .btn{
+    border: none;
+    background: #ffc500;
+    padding: 15px 0;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: .6s;
+    font-style: italic;
+    
+}
