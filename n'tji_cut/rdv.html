@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/stylesheet.css">
+    <link rel="stylesheet" media="screen and (max-width: 768px)" href="css/tablette.css">
+    <link rel="stylesheet" media="screen and (max-width: 500px)" href="css/mobile.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <title>n'tjicut | Bienvenue</title>
+</head>
+
+<body>
+    <header>
+        <div class="header">
+            <div class="navbar container">
+                <div class="mob-menu-icon">
+                    <i class="fas fa-bars fa-1x"></i><span class="cacher"><i
+                            class="far fa-window-close fa-1x"></i></span>
+                    <a href="mailto:contact@mansahdesign.fr"><i class="fas fa-envelope fa-1x"></i></a>
+                </div>
+                <div class="large-menu">
+                    <a href="index.html"><img src="/images/logo_bg-dark.png" class="logo" alt="n'tjicut"></a>
+                    <ul>
+                        <li><a href="index.html">Presentation</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="rdv.html" class="current">Rendez-vous</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="mobile-menu hiden">
+            <li><a href="index.html">Presentation</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="rdv.html">Rendez-vous</a></li>
+        </div>
+    </header>
+    <!-- Showcase -->
+    <section>
+        <div class="showcase">
+            <div class="content container">
+                <div class="content-1">
+                    <h1>Give a call, get a cut</h1>
+                    <p>N’tji cut est un salon de coiffure à Paris qui offre des services multiples au tour du traitement de cheveux : coiffure, champoinnage, barbier. Il offre aussi un service de coiffure sur mesure. C’est-à-dire qu’il laisse à ses clients le choix du lieux pour leur faire une coupe. Il suffit d'appeler au 06 55 30 78 20 pour choisir le lieux, la date de votre prochaine coupe.</p>
+                    <a href="info.html">En savoir plus</a>
+                </div>
+                <div class="content-2">
+                    <img src="/images/n'tji-skate.png" alt="hero">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- formulaire de rendez-vous -->
+    <section class="container form-rdv">
+        <div class="card-rv">
+            <div class="form-3">
+                <div class="nom">
+                    <label for="name">Nom</label>
+                    <input type="text" id="name" name="name" placeholder="Votre nom" required>
+                </div>
+                <div class="prenom">
+                    <label for="name">Prénom</label>
+                    <input type="text" id="firstname" name="firstname" placeholder="Votre prénom" required>
+                </div>
+                <div class="mail">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Votre email" required>
+                </div>
+                <div class="tel">
+                    <label for="phone">Téléphone</label>
+                    <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+                        placeholder="Entrez votre numéro de téléphone" required>
+                </div>
+                <div class="calender">
+                    <p>Rendez-vous</p>
+                    <input type="text" id="rv" placeholder="Choisir une date" class="">
+                    <label class="mt-2" for="rv"><i class="far fa-calendar-alt"></i></label>
+                </div>
+                <div class="msg">
+                    <label for="message">Message</label>
+                    <textarea name="message" id="message" placeholder="Votre message" required></textarea>
+                </div>
+                <div class="envoyer">
+                    <button class="btn">Envoyer</button>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="grid-container-5">
+                <div class="ntji-cut">
+                    <h3>N'tji cut</h3>
+                    <div class="p">
+                        <p><a href="#">Presentation</a></p>
+                        <p><a href="https://moncoiffeursengage.com/" target="_blank">Coupe eco-friend</a></p>
+                        <p><a href="https://fr.wikipedia.org/wiki/Coiffure" target="_blank">Le metier de coiffure</a>
+                        </p>
+                        <p><a href="https://www.skatepro.fr/" target="_blank">Le skateboard</a></p>
+                    </div>
+                </div>
+                <div class="contact">
+                    <h3>Contact</h3>
+                    <div class="ctct-content">
+                        <p><span><i class="fas fa-phone-square-alt fa-2x"></i></span>06 55 30 78 20</p>
+                        <p><span><i class="fas fa-envelope fa-2x"></i></span><a
+                                href="mailto:n'tjicut@gmail.com.com">n'tjicut@gmail.com</a></p>
+                    </div>
+                </div>
+                <div class="suivez-nous">
+                    <h3>Suivez-nous</h3>
+                    <p><i class="fab fa-facebook-square fa-2x"></i></p>
+                    <p><i class="fab fa-instagram-square fa-2x"></i></p>
+                    <p><i class="fab fa-pinterest-square fa-2x"></i>
+                    </p>
+                </div>
+                <div class="logo">
+                    <a href="#"><img src="/images/logo_bg-dark.png" alt=""></a>
+                </div>
+                <small>
+                    <p><a href="https://mansahdesign.fr/" target="_blank">Design by Mansah</a></p>
+                </small>
+            </div>
+        </div>
+        <p class="copyright">n'tji cut &copy; 2021, tout droit reservé</p>
+    </footer>
+    <script src="/js/script.js"></script>
+</body>
+
+</html>
